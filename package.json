@@ -6,15 +6,22 @@
     "engines": {
         "vscode": "^1.58.0"
     },
-    "categories": [
-        "Themes"
-    ],
+    "icon": "icons/logo.jpg",
+    "author": {
+        "name": "Vsevolod Pechenin",
+        "email": "vicodinvic1@gmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/vicodinvic1/darcula-vscode-color-theme",
+        "type": "git"
+    },
+    "categories": ["Themes"],
     "contributes": {
         "themes": [
             {
                 "label": "Darcula Color Theme (vic1)",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Darcula Color Theme (vic1)-color-theme.json"
+                "path": "./themes/theme.json"
             }
         ]
     }
