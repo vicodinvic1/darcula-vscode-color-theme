@@ -12,7 +12,7 @@ import useRouter from 'hooks/useRouter'
 
 import MyGreatLocalComponent from './MyGreatLocalComponent'
 
-const CURRENT_HOURS = new Date().getHours
+const CURRENT_HOURS = new Date().getHours()
 const PRIMARY_VARIANT = 'default'
 const SECONDARY_VARIANT = 'primary'
 const VARIANTS = [PRIMARY_VARIANT, SECONDARY_VARIANT]
@@ -120,7 +120,7 @@ function FunctionalComponent (props) {
 
       {renderNiceLayout(showNiceLayout)}
 
-      {CURRENT_HOURS < 7
+      {CURRENT_HOURS < 18
         ? formatDate(CURRENT_HOURS)
         : 'You should go home'}
     </>
