@@ -5,6 +5,8 @@ import Box from 'components/Box'
 
 import { fetchThing } from 'actions/thing'
 
+import * as routes from 'constants/routes'
+
 import { format as formatDate } from 'lib/date'
 
 import useDispatch from 'hooks/useDispatch'
@@ -13,8 +15,8 @@ import useRouter from 'hooks/useRouter'
 import MyGreatLocalComponent from './MyGreatLocalComponent'
 
 const CURRENT_HOURS = new Date().getHours()
-const PRIMARY_VARIANT = 'default'
-const SECONDARY_VARIANT = 'primary'
+const PRIMARY_VARIANT = 'primary'
+const SECONDARY_VARIANT = 'secondary'
 const VARIANTS = [PRIMARY_VARIANT, SECONDARY_VARIANT]
 
 export const CAR = {
@@ -109,6 +111,10 @@ function FunctionalComponent (props) {
       <button onClick={handleButtonClick}>
         Increase count
       </button>
+
+      <a href={routes.ABOUT_US_ROUTE}>
+        About us
+      </a>
 
       {foo
         ? (foo === 0 || foo === 10) && foo + count * 2 / (foo - 1 % count)
