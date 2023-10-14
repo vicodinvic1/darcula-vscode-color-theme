@@ -2,7 +2,7 @@
 	"name": "Darcula Color Theme (vic1)",
 	"type": "dark",
 	"colors": {
-		"editor.background": "#263238",
+		"editor.background": "#25282f",
 		"editor.foreground": "#eeffff",
 		"activityBarBadge.background": "#007acc",
 		"sideBarTitle.foreground": "#bbbbbb"
