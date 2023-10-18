@@ -2,10 +2,42 @@
 	"name": "Darcula Color Theme (vic1)",
 	"type": "dark",
 	"colors": {
+		"activityBar.activeBorder": "#ffb64e",
+		"activityBarBadge.background": "#ffb64e",
+		"breadcrumb.activeSelectionForeground": "#ffb64e",
 		"editor.background": "#25282f",
-		"editor.foreground": "#eeffff",
-		"activityBarBadge.background": "#007acc",
-		"sideBarTitle.foreground": "#bbbbbb"
+		"editor.findMatchBorder": "#ffb64e",
+		"editor.foreground": "#a9b7c6",
+		"editor.selectionBackground": "#214283",
+		"editor.selectionHighlightBackground": "#214283",
+		"editorCursor.foreground": "#179aff",
+		"editorGroupHeader.tabsBackground": "#212429",
+		"editorIndentGuide.activeBackground1": "#5d7851",
+		"editorIndentGuide.background1": "#383c43",
+		"editorLineNumber.foreground": "#66686e",
+		"editorSuggestWidget.highlightForeground": "#ffb64e",
+		"editorWidget.border": "#46494f",
+		"editorWidget.resizeBorder": "#ffb64e",
+		"list.activeSelectionForeground": "#ffb64e",
+		"list.highlightForeground": "#ffb64e",
+		"list.inactiveSelectionForeground": "#ffb64e",
+		"menu.selectionForeground": "#ffb64e",
+		"menubar.selectionForeground": "#ffb64e",
+		"notificationLink.foreground": "#ffb64e",
+		"panelTitle.activeBorder": "#ffb64e",
+		"pickerGroup.foreground": "#ffb64e",
+		"progressBar.background": "#ffb64e",
+		"scrollbarSlider.activeBackground": "#ffb64e",
+		"settings.headerForeground": "#ffb64e",
+		"settings.modifiedItemIndicator": "#ffb64e",
+		"sideBar.background": "#212429",
+		"sideBar.foreground": "#a9b7c6",
+		"sideBarTitle.foreground": "#bbbbbb",
+		"statusBar.background": "#212429",
+		"statusBar.foreground": "#a9b7c6",
+		"tab.activeBackground": "#282c34",
+		"tab.activeBorder": "#ffb64e",
+		"textLink.foreground": "#ffb64e"
 	},
 	"tokenColors": [
 		{
@@ -23,7 +55,7 @@
 		{
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#6897bb"
+				"foreground": "#6897BB"
 			}
 		},
 		{
@@ -72,21 +104,21 @@
 		{
 			"scope": "entity.name.class",
 			"settings": {
-				"foreground": "#ffb64e",
+				"foreground": "#FFB64E",
 				"fontStyle": "underline"
 			}
 		},
 		{
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"foreground": "#ffb64e",
+				"foreground": "#FFB64E",
 				"fontStyle": "italic underline"
 			}
 		},
 		{
 			"scope": "entity.name.function",
 			"settings": {
-				"foreground": "#ffb64e",
+				"foreground": "#FFB64E",
 				"fontStyle": ""
 			}
 		},
@@ -114,14 +146,14 @@
 		{
 			"scope": "support.function",
 			"settings": {
-				"foreground": "#ffb64e",
+				"foreground": "#FFB64E",
 				"fontStyle": ""
 			}
 		},
 		{
 			"scope": "support.constant",
 			"settings": {
-				"foreground": "#ffb64e",
+				"foreground": "#FFB64E",
 				"fontStyle": ""
 			}
 		},
@@ -141,7 +173,7 @@
 		{
 			"scope": "invalid",
 			"settings": {
-				"foreground": "#bd1900",
+				"foreground": "#BD1900",
 				"fontStyle": ""
 			}
 		},
