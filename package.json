@@ -2,7 +2,7 @@
     "name": "darcula-color-theme-vic1",
     "displayName": "Darcula Color Theme (vic1)",
     "description": "The proper colored color theme for js/react syntax.",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.58.0"
     },
